@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaShopApi", "TeaShopApi\TeaShopApi.csproj", "{907F7B28-B24C-4E86-A258-52F202D778E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi", "TeaShopApi\TeaShopApi.csproj", "{907F7B28-B24C-4E86-A258-52F202D778E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaShopApi.EntityLayer", "TeaShopApi.EntityLayer\TeaShopApi.EntityLayer.csproj", "{EAC9D08D-C9BE-42AD-91B0-AFF66F85769A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi.EntityLayer", "TeaShopApi.EntityLayer\TeaShopApi.EntityLayer.csproj", "{EAC9D08D-C9BE-42AD-91B0-AFF66F85769A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaShopApi.DataAccessLayer", "TeaShopApi.DataAccessLayer\TeaShopApi.DataAccessLayer.csproj", "{4EFDADE2-5213-4782-B9D1-FA3AC3D1479A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi.DataAccessLayer", "TeaShopApi.DataAccessLayer\TeaShopApi.DataAccessLayer.csproj", "{4EFDADE2-5213-4782-B9D1-FA3AC3D1479A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaShopApi.BusinessLayer", "TeaShopApi.BusinessLayer\TeaShopApi.BusinessLayer.csproj", "{CAFE1770-7025-4BFB-A6A8-A1FEC3755B7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi.BusinessLayer", "TeaShopApi.BusinessLayer\TeaShopApi.BusinessLayer.csproj", "{CAFE1770-7025-4BFB-A6A8-A1FEC3755B7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaShopApi.DtoLayer", "TeaShopApi.DtoLayer\TeaShopApi.DtoLayer.csproj", "{4EC90793-C0F7-47C5-9B34-E1EFD7B78F36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi.DtoLayer", "TeaShopApi.DtoLayer\TeaShopApi.DtoLayer.csproj", "{4EC90793-C0F7-47C5-9B34-E1EFD7B78F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaShopApi.WebUI", "TeaShopApi.WebUI\TeaShopApi.WebUI.csproj", "{34F7F337-7F1A-4A50-9821-63A6AB8457EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4EC90793-C0F7-47C5-9B34-E1EFD7B78F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EC90793-C0F7-47C5-9B34-E1EFD7B78F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EC90793-C0F7-47C5-9B34-E1EFD7B78F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F7F337-7F1A-4A50-9821-63A6AB8457EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F7F337-7F1A-4A50-9821-63A6AB8457EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F7F337-7F1A-4A50-9821-63A6AB8457EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F7F337-7F1A-4A50-9821-63A6AB8457EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
