@@ -13,6 +13,10 @@ builder.Services.AddScoped<IDrinkService, DrinkManager>();
 builder.Services.AddScoped<IQuestionDal, EfQuestionDal>();
 builder.Services.AddScoped<IQuestionService, QuestionManager>();
 
+builder.Services.AddScoped<IStatisticsDal, EfStatisticsDal>();
+builder.Services.AddScoped<IStatisticsService, StatisticsManager>();
+
+
 //builder.Services.AddScoped<IQuestionDal, EfQuestionDal>();
 //builder.Services.AddScoped<IQuestionService, QuestionManager>();
 
